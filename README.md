@@ -8,7 +8,7 @@ Add marker10 and sampleQR to models in .gazebo <br>
 Change path in line `7` of `sample_arena.launch`  
    
    ```
-	<arg name="world" default="/home/neha_kurian/catkin_ws/src/arena_with_qr/world/sample_arena.world" />
+        <arg name="world" default="/home/neha_kurian/catkin_ws/src/arena_with_qr/world/sample_arena.world" />
    ```
 
 Change path in line `105` and `127` in `sample_arena.world`
@@ -31,7 +31,7 @@ Open terminal from your <workspace> and do
 Change path in line `7` of `final_arena.launch `
    
    ```
-	  <arg name="world" default="/home/neha_kurian/catkin_ws/src/arena_with_qr/world/final_arena.world" />
+       <arg name="world" default="/home/neha_kurian/catkin_ws/src/arena_with_qr/world/final_arena.world" />
    ```
 
 Change path in line `293` and `315` in `final_arena.world`
